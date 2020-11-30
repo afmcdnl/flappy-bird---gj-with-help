@@ -7,6 +7,8 @@ input.onButtonPressed(Button.B, function () {
 let emptyObstacleY = 0
 let ticks = 0
 let bird: game.LedSprite = null
+basic.showString("Up=A Down=B")
+basic.showString("3, 2, 1 GO!")
 let index = 0
 let obstacles: game.LedSprite[] = []
 bird = game.createSprite(0, 2)
